@@ -1,0 +1,81 @@
+*{
+    font-family: Helvetica,Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+} 
+ 
+.container{
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+    background-image: url("./minigram.png");
+    background-position:bottom;  
+    height: 100vh;
+}
+ 
+.head-top{
+    color: #fff;
+    font-size: 20px;
+}
+
+.auth-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding:100px 0; 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+form input{
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 9px;
+    width: 20em;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px 0 0 0;
+}
+
+form .login{
+    padding: 11px;
+    border: none;
+    border-radius: 11px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form .login:hover{
+    background-color: #c98eda  ;
+}
+
+.signUP{
+    background-color: #a397d4;
+    padding: 10px;
+    width: 93%;
+    text-align: center;
+    border-radius: 11px;
+}
+
+.signUP a{ 
+    text-decoration: none;
+    font-size: 15px; 
+}
+
+.signUP a:hover{
+    color: #fff;
+} 

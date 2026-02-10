@@ -1,0 +1,14 @@
+.container-1{
+    display: flex; 
+    justify-content:center;  
+    height: 100vh;
+    background: #0c0521; 
+}
+
+.heading{
+    color: #fff;
+}
+
+.createForm{ 
+    gap: 20px;
+}
